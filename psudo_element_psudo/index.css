@@ -1,0 +1,71 @@
+/* section h1:first-child{
+    color: red;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: calibri;
+} 
+
+ table{
+    width: 100%;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+}
+
+table thead tr{
+    background-color: bisque;
+    
+}
+
+.hi{
+    background-color: purple;
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(7, 124, 124);
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: rgba(34, 150, 150, 0.151);
+}
+
+tbody tr:nth-child(even):hover {
+    background-color: rgb(49, 92, 92);
+}
+
+
+tbody tr:nth-child(odd):hover{
+    background-color: rgba(65, 131, 131, 0.151);
+}
+
+
+

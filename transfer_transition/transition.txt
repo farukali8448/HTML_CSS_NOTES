@@ -1,0 +1,48 @@
+
+CSS transitions allows you to change property values smoothly, over a given duration.
+
+ following some properties:->
+
+1. transition
+2. transition-delay
+3. transition-duration
+4. transition-property
+5. transition-timing-function
+
+
+==============================How to Use CSS Transitions?==================================
+
+To create a transition effect, you must specify two things:
+
+i. the CSS property you want to add an effect to
+ii. the duration of the effect
+
+Note: If the duration part is not specified, the transition will have no effect, because the default value is 0.
+
+======================================apply========================================
+
+ 1. transition-property: width;
+ 2. transition-duration: 2s;
+ 3. transition-timing-function: linear;
+ 4. transition-delay: 1s;
+
+ ====================================defination=======================================
+
+ ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+linear - specifies a transition effect with the same speed from start to end
+ease-in - specifies a transition effect with a slow start
+ease-out - specifies a transition effect with a slow end
+ease-in-out - specifies a transition effect with a slow start and end
+
+========================================explation=====================================
+                                                                    
+
+  Property	                                                       Description
+     |                                                                       |
+     |                                                                       |
+     |                                                                       |
+transition-------------------------->A shorthand property for setting the four transition properties into a single property
+transition-delay------------------->Specifies a delay (in seconds) for the transition effect
+transition-duration--------------->	Specifies how many seconds or milliseconds a transition effect takes to complete
+transition-property--------------->	Specifies the name of the CSS property the transition effect is for
+transition-timing-function-------->	Specifies the speed curve of the transition effect

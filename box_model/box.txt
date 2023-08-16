@@ -1,0 +1,20 @@
+=====================BOX MODEL==============
+
+1. box model is pattern which provides proper layout to html element
+2.every HTML element will be consider as box
+3. box model have some properties
+                                  i. Border
+                                 ii. Padding
+                                iii. Margin
+                                iiii. Outline
+
+
+  BORDER:- border specefie border of the element
+  OUTLINE:- outline is an outer edges of html element
+  PADDING:- Padding is the space between the content and border
+  MARGIN:-margin is the space between two element or outline
+
+  NOTE:-
+             i. all the properties are independent
+             ii. border,padding,margin is having four sides
+            iii. we can apply properties to the indivisual side,we have indivisual properties 

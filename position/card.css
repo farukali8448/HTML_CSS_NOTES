@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+html,body{
+    width: 100%;
+}
+
+div{
+    width: 300px;
+    height: 50px;
+    background-color: aqua;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}

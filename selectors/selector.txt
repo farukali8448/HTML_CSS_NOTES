@@ -1,0 +1,82 @@
+selector:-
+
+
+Many types of selector:---->
+
+                1. Element selector
+                2. Group selector
+                3. Class selector
+                4. Generic class selector
+                5. ID selector
+                6. Attribute selector
+                7. Attribute value selector
+                8. Child selector
+                                        i.Desendent Child selector(space)
+                                       ii.Direct Child selector(>)
+                9. Sibling selector
+                                   i.Adjecent Sibling selector
+                                   ii.General Sibling selector
+
+              10. Universal selector
+
+
+              ======================== > Element selector <=================
+
+              ----> Element selector select only one time of element
+              ----> In Element selector we select the element based on tag
+
+              ========================>Group selector<====================
+
+              ---->Group selector is used to select the element based on Group
+              ---->In Group selector every element must be separted by '.'
+              ---->if we select more then one element at a time is called group selector 
+
+              ========================> Class selector<=====================
+
+              ---->Class selector is used to select the element based on class name
+              ---->Class selector select the element which is having class name
+              ---->we can assign the class name to the element by using class Attribute
+              ---->Class is global Attribute
+              ---->CSS Class is denoted by '.'
+              ---->It select the element which is having specefie class and tagname
+
+              ========================>Generic class selector<=================
+
+              --->Generic class selector select all the tags with the class name
+
+              ========================>ID selector<========================
+
+              --->ID selector is used to select  the element based on ID name
+              --->ID selector works same as Generic Class selectors
+              ---> when we pass both Generic and ID selector to the same element priority will be given to ID selector
+
+              NOTE:- ID selector override common properties
+              
+
+              ==========================>Attribute selector<=================
+              ---->
+
+
+              ==========================>Attribute value selector<==============
+              ----->
+
+
+              ==========================>Child selector<====================
+
+              --->Child selector is used to select Child Element
+              --->there are two types of child selector
+                                                           i. Desendent Child selector(space)
+                                                          ii. Direct Child selector(>)
+
+            ===========================>Sibling selector<===================
+
+            ---->Sibling selector is used to select Sibling
+            --->there are two types of Sibling  
+                                                     i. Adjecent Sibling selector
+                                                    ii. General Sibling selector   
+
+            ============================>Universal selector<=================
+
+            ---->Universal selector select all the tags
+            ---->Universal selector is used apply common properties all the html element                                                                              
+

@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html,body{
+    width: 100%;
+}
+
+.all-card{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+    border: 2px solid red;
+}
+
+.first .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    margin-right: 20px;
+}
+.card
+
+.first .card {
+    display: flex;
+    align-items: center;
+}
+.second .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    
+}
+.third .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+   
+}
+.fourth .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    
+}

@@ -1,0 +1,39 @@
+INLINE LEVEL -----------------------------------------------------BLOCK LEVEL-----------------------------------------------------------
+
+
+1. inline level element will be displayed in same line                1. block level element displayed in different line
+2. inline level element having contain width                          2.  block level element will be having full width of it parents
+3. when we apply css in the inline level element it                   3. when we apply css in the block level it will be apply for full width
+    only applicable for content
+4.for inline level element width and height is not 
+   having any effect (only for few element ex: img apply h/w)   4. for block level width and height applicable all the block level element
+
+
+=================================================================================
+
+
+1.displayed properties is used to change the default display behaviour of html element,used to hide element,used to arranged
+   the element (flex) and to make the web page responsive (grid)
+
+
+=================================================================================
+
+                       Difference between display:none and visibility: hidden
+
+1. visibility hidden hides the element but it still takes up space in the layout
+2. display none removes the element from the the document. it does not take up any space.
+
+================================================================================
+                                               FLEXBOX
+
+ 1. flexbox is also known as flexible box which provide flexible layout  for html element.
+ 2. we can arranged the element from row and column without using table, we can move the element without using float,position properties
+ 3. if we want to apply flexbox there must be parent and child relationship
+ 4. if we apply flexbox properties throw parent element child element will be arranged.
+
+ --> display:flex
+ --> flex-direction: row,column,row-reverse,column-reverse
+ --> flex-wrap: nowrap,wrap
+ --> justify-content: start,space-between,end,around,space-evenly,content
+ --> align-items: start,end,center                                               
+   

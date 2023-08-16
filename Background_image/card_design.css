@@ -1,0 +1,22 @@
+.my-card{
+    height: 500px;
+    width: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.456),rgba(0,0,0,0.451)),
+    url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_640.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    margin: 50px auto;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.my-card hr{
+    background-color: red;
+    height: 3px;
+    border: none;
+    width: 64px;
+    margin-left: 1px;
+    margin-top: -19px;
+}

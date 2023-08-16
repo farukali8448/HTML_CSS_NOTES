@@ -1,0 +1,143 @@
+    /* ====================Element Selectors=================== */
+/* 
+h1{
+    color:red;
+
+}
+a{
+    font-size: larger;
+}
+
+p{
+    color: green;
+} */
+
+/* =================Group Selectors ==========================*/
+
+/* a,h1,p{
+    color: dodgerblue;
+    font-size: large;
+} */
+
+/* =================Class selectors=========================== */
+ 
+/* p.clr
+{
+    color: red;
+}  */
+
+/* ================Generic class selector======================= */
+
+/* .clr 
+{
+    color:darkorange
+} */
+
+
+/* ====================Generic class Selectors===================== */
+/* 
+.clr{
+    color: red;
+} */
+
+/* ====================ID Selectors===================== */
+
+/* .clr{
+    color: red;
+    text-decoration: underline;
+    text-shadow: 3px 3px 1px cyan;
+    
+}
+
+#color{
+    color: green;
+    text-decoration: overline;
+
+} */
+
+/* ====================Attribute Selectors===================== */
+
+/* 
+   input[minlength]{
+    background-color: orange;
+   }
+
+   input[required]{
+    background-color:green;
+   } */
+
+   /* ====================Attribute  Value Selectors===================== */
+     
+   /* input[type='email']{
+    background: dodgerblue;
+   } */
+
+   /* ===================Child Selectors==================== */
+
+
+   /* =====desendent child selector======= */
+
+   /* div a{
+    color: red;
+   } */
+
+/* ======direct child selectors========= */
+
+ /* div>a{
+    color:red;
+   }  */
+
+   /* ===================Siblings selectors========= */
+
+   /* Adjecent siblings selectors */
+
+   
+   /* div+a{
+    color: red;
+   } */
+
+
+   /* Generals siblings selectors */
+
+      /* div~a{
+    color:green;
+   } */
+
+   /* ====================Universal Selectors=========== ====*/
+
+
+   /* *{
+    color: red;
+   }
+
+   p{
+    color: green;
+   } */
+
+   /* ===========interview-1=========== */
+
+   /* section div .para{
+    color: red;
+   } */
+
+   /* ===========interview-2============ */
+
+   /* .s{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+   }
+
+   .d{
+    font-size: italic;
+    font-size: 100px;
+   }
+
+   .s,.d{
+    color: green;
+    text-shadow: 2px 3px 1px red;
+   } */
+
+
+

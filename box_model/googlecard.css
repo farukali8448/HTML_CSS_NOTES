@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+html,body{
+    width: 100%;
+}
+
+.card{
+    border: 2px solid green;
+    width: 247px;
+    height: 283px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 32px;
+}
+
+.card img{
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 14px;
+    border-radius: 100%;
+}

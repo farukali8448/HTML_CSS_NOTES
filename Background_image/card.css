@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+html,body{
+    width: 100%;
+}
+
+.card{
+    width: 50%;
+    height: 100%;
+    border: 2px solid green;
+    text-align: center;
+    margin: 100px auto;
+  }
+
+  .card .card-content img{
+    width: 100%;
+    margin-bottom: 10px;
+    }
+
+    .card .card-content h1{
+        font-size:40px;
+        font-weight:bold;
+        padding: 20px 40px;
+    }
+    .card .card-content p{
+        color: black;
+        padding-bottom: 20px;
+        font-size:18px ;
+    }

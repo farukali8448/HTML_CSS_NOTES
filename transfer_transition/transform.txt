@@ -1,0 +1,79 @@
+CSS transforms allow you to move, rotate, scale, and skew elements.
+
+=========>With the CSS transform property you can use the following 2D transformation methods:
+
+1. translate()
+2. rotate()
+3. scaleX()
+4. scaleY()
+5. scale()
+6. skewX()
+7. skewY()
+8. skew()
+9. matrix()
+
+=========================translate================================
+
+1. The translate() method moves an element from its current position
+
+   ex. transform: translate(50px, 100px);
+
+=========================== rotate()================================
+
+The rotate() method rotates an element clockwise or counter-clockwise according to a given degree.
+
+ex.  transform: rotate(20deg);
+
+Using negative values will rotate the element counter-clockwise.
+
+ex. transform: rotate(-20deg);
+
+============================= scaleX()===============================
+
+The scaleX() method increases or decreases the width of an element.
+ex. transform: scaleX(2);
+ 
+
+============================== scaleY()==============================
+
+The scaleY() method increases or decreases the height of an element.
+ ex.  transform: scaleY(3);
+
+
+==============================scale()===============================
+
+      The scale() method increases or decreases the size of an element
+      ex.  transform: scale(2, 3);
+
+===============================skewX()=============================
+
+The skewX() method skews an element along the X-axis by the given angle.
+   ex. transform: skewX(20deg);
+   
+
+
+===============================skewY()==============================
+The skewY() method skews an element along the Y-axis by the given angle.
+ex. transform: skewY(20deg);
+
+
+================================skew()==============================
+The skew() method skews an element along the X and Y-axis by the given angles.
+ex. transform: skew(20deg, 10deg);
+
+
+================================matrix()=============================
+
+The matrix() method combines all the 2D transform methods into one.
+
+The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.
+
+The parameters are as follow: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+
+ex.   transform: matrix(1, -0.3, 0, 1, 0, 0);
+
+========================================================================================
+
+
+
+
